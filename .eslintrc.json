@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "plugin:react/jsx-runtime",
+    "next"
+  ],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "rules": {
+    // put your rule here if you want to disable some of them
+  }
+}
